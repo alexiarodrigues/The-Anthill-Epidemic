@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://bopmj3gaj1c2g"]
+
+[ext_resource type="Script" uid="uid://qrkybh7ak0u6" path="res://script/maomao.gd" id="1_4dohe"]
+[ext_resource type="Texture2D" uid="uid://8788m400bit5" path="res://Imagem/New Piskel (3).png" id="2_r66lb"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1txc5"]
+atlas = ExtResource("2_r66lb")
+region = Rect2(0, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ht1c8"]
+atlas = ExtResource("2_r66lb")
+region = Rect2(16, 0, 16, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g2jcq"]
+atlas = ExtResource("2_r66lb")
+region = Rect2(0, 24, 16, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eme0p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1txc5")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1txc5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ht1c8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g2jcq")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uh0y0"]
+size = Vector2(16, 24)
+
+[node name="maomao" type="CharacterBody2D" unique_id=1486737843]
+script = ExtResource("1_4dohe")
+
+[node name="animação" type="AnimatedSprite2D" parent="." unique_id=1441437702]
+sprite_frames = SubResource("SpriteFrames_eme0p")
+animation = &"walk"
+
+[node name="coli" type="CollisionShape2D" parent="." unique_id=1676439591]
+shape = SubResource("RectangleShape2D_uh0y0")
+
+[node name="Camera" type="Camera2D" parent="." unique_id=1603799641]
