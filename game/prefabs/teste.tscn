@@ -5,7 +5,14 @@
 [node name="Node2D" type="Node2D" unique_id=1091119465]
 script = ExtResource("1_a3ld0")
 
+[node name="Panel" type="Panel" parent="." unique_id=676617296]
+offset_left = 1.0
+offset_top = 2.0
+offset_right = 323.0
+offset_bottom = 181.0
+
 [node name="Timer" type="Timer" parent="." unique_id=2054900800]
+wait_time = 60.0
 one_shot = true
 autostart = true
 
