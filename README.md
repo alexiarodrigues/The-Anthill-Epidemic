@@ -15,10 +15,10 @@ Os inimigos do jogador (obstáculos) são formigas mutantes,ele precisa passar p
 
 
 ## Itens e coletáveis:
-Os itens são frascos com os alimentos necessários para a entrega encontrados na fase 3. Nas fases anteriores,os itens são entregados para o jogador por outro personagem para a jogatina no labirinto
+Os itens são frascos com os alimentos necessários para a entrega encontrados na fase 2. Nas fases anteriores,os itens são entregados para o jogador por outro personagem para a jogatina no labirinto
 
 ## Condições de vitória:
-O personagem precisa entregar no minímo 6 frascos ao laborátorio ao final do jogo  (acumulativo)
+O personagem precisa entregar no minímo 2 frascos ao laborátorio ao final do jogo  (acumulativo)
 
 
 ## Condições de derrota:
