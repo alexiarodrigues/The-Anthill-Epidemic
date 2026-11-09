@@ -1,0 +1,21 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794250628
+icon.svg::CompressedTexture2D::5653505140951467421::1794250600::1794250629::1::::<><><>0<>0<>822cff418d4e86e41f1f084259aabc0a<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://fonte/::1794250600
+JimNightshade-Regular.ttf::FontFile::2280681893357906247::1794250600::1794250629::1::::<><><>0<>0<>3b9f62d249558fde94313fb4fe5d33cb<>res://.godot/imported/JimNightshade-Regular.ttf-9395c7e5cb24e156b4428f10b711db09.fontdata::
+OFL.txt::TextFile::-1::1794250600::0::1::::<><><>0<>0<><>::
+::res://Imagem/::1794250600
+Image.png::CompressedTexture2D::4991288348998032258::1794250600::1794250629::1::::<><><>0<>0<>4676de68f5104b44b6a74985a13e84f2<>res://.godot/imported/Image.png-c31f757d80ad570f890016a0db2cf499.ctex::
+New Piskel (2).png::CompressedTexture2D::9074290901732526602::1794250600::1794250629::1::::<><><>0<>0<>08aec13fcc270ea804a3c9f65909608a<>res://.godot/imported/New Piskel (2).png-4983d2ee1cf5d225594c4aea875b251c.ctex::
+New Piskel (3).png::CompressedTexture2D::2384355196394009404::1794250600::1794250629::1::::<><><>0<>0<>fcc336251d1e596ab143227eaeec5f8f<>res://.godot/imported/New Piskel (3).png-912fb223b5432b784e6dbeb657802f7b.ctex::
+::res://prefabs/::1794250600
+game_over.tscn::PackedScene::8020297877251231754::1794250600::0::1::::<><><>0<>0<><>::uid://cy2ixfeufv0mg::::res://script/dead.gd<>uid://7q1q6gtefj0j::::res://fonte/JimNightshade-Regular.ttf<>uid://8788m400bit5::::res://Imagem/New Piskel (3).png
+jogo.tscn::PackedScene::1755996727647906700::1794250600::0::1::::<><><>0<>0<><>::uid://bopmj3gaj1c2g::::res://prefabs/player.tscn
+menu.tscn::PackedScene::8648380167941397113::1794250600::0::1::::<><><>0<>0<><>::uid://qanc3bxcbv54::::res://script/menu.gd
+player.tscn::PackedScene::3400776316930475396::1794250600::0::1::::<><><>0<>0<><>::uid://qrkybh7ak0u6::::res://script/maomao.gd<>uid://8788m400bit5::::res://Imagem/New Piskel (3).png
+teste.tscn::PackedScene::7450768036979378996::1794250600::0::1::::<><><>0<>0<><>::uid://cb5ui3ls4l38w::::res://script/node_2d.gd
+::res://script/::1794250600
+dead.gd::GDScript::6513638892972750842::1794250600::0::1::::<>Control<><>0<>0<><>::
+maomao.gd::GDScript::1158766013800253755::1794250600::0::1::::<>CharacterBody2D<><>0<>0<><>::
+menu.gd::GDScript::1123815863948652469::1794250600::0::1::::<>Control<><>0<>0<><>::
+node_2d.gd::GDScript::4906191658356306064::1794250600::0::1::::<>Node2D<><>0<>0<><>::
